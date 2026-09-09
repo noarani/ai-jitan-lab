@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { SITE_TITLE, SITE_TAGLINE, PILLARS } from '../consts';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const guides = (await getCollection('guides', ({ data }) => !data.draft)).sort(
+  (a, b) => (a.data.publishedAt < b.data.publishedAt ? 1 : -1),
+);
+const latest = guides.slice(0, 12);
+---
+<BaseLayout
+  title={`${SITE_TITLE}｜${SITE_TAGLINE}`}
+  isHome
+  description="生成AIで業務文書を安全に下書きし、送信・共有・公開の前に確認して時短する手順を、メール・議事録・報告書など作業別にまとめた実践ガイドです。"
+>
+  <h1>{SITE_TAGLINE}</h1>
+  <p class="lead">
+    「便利な活用法○選」ではなく、1つの業務を選び、AIに下書きさせ、人が確認して、
+    定型化するところまでを具体的に扱います。実在の顧客・案件・数値は使わず、例はすべて架空です。
+  </p>
+
+  <h2>カテゴリから読む</h2>
+  <ul class="card-list">
+    {PILLARS.map((p) => (
+      <li>
+        <a href={`${base}/${p.slug}/`}>{p.title}</a>
+        <p>{p.short}のハブページ。関連記事へのリンクをまとめています。</p>
+      </li>
+    ))}
+  </ul>
+
+  {latest.length > 0 && (
+    <>
+      <h2>新着の記事</h2>
+      <ul class="card-list">
+        {latest.map((g) => (
+          <li>
+            <a href={`${base}/${g.data.pillar}/${g.id}/`}>{g.data.title}</a>
+            <p>{g.data.description}</p>
+          </li>
+        ))}
+      </ul>
+    </>
+  )}
+</BaseLayout>
