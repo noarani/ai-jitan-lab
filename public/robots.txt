@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://noarani.github.io/ai-jitan-lab/sitemap-index.xml
