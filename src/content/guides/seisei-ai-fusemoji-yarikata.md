@@ -85,7 +85,7 @@ After
 3. 固有名詞：会社名、人名、部署名、案件名を取り違えていないか。
 4. 記号：「[」で検索し、戻し忘れがないか。置換を二度行っていないか。
 
-宛先、CC、添付、共有リンクの公開範囲は、本文と別に画面上で確認します。AIを使った送信前の検査方法は、[ChatGPTの送信前確認に使えるプロンプト](/ai-jitan-lab/anzen-gyomu-bunsho/chatgpt-soshin-mae-kakunin-prompt/)で扱っています。
+宛先、CC、添付、共有リンクの公開範囲は、本文と別に画面上で確認します。AIを使った送信前の検査方法は、[ChatGPTの送信前確認に使えるプロンプト](/ai-jitan-lab/anzen-gyomu-bunsho/chatgpt-soshin-mae-kakunin-prompt/)で扱っています。会議メモから議事録を作るときに、決定事項と未確定を分けて残す方法は、[AI議事録作成プロンプト](/ai-jitan-lab/ai-gijiroku/ai-gijiroku-sakusei-prompt/)にまとめています。
 
 ## この記事では何を判断しない？
 
