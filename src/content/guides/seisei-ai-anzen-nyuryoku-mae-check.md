@@ -88,6 +88,6 @@ faq:
 2. 伏せ字は安全の保証ではない。迷う情報は材料から外し、社内規程とサービスの設定を確認する。
 3. 出力は下書きとして扱い、送信・共有・公開の前に事実・固有名詞・記号・宛先を原資料と照合する。
 
-会議メモから議事録の下書きを作る場合の、決定事項と未確定を分けるプロンプトは「[AI議事録作成プロンプト：決定事項・担当者・期限を分けるテンプレート](/ai-jitan-lab/ai-gijiroku/ai-gijiroku-sakusei-prompt/)」にまとめています。
+会議メモから議事録の下書きを作る場合の、決定事項と未確定を分けるプロンプトは「[AI議事録作成プロンプト：決定事項・担当者・期限を分けるテンプレート](/ai-jitan-lab/ai-gijiroku/ai-gijiroku-sakusei-prompt/)」に、取引先へ送る社外メールの初稿を作る場合は「[ChatGPTで社外メールを下書きする方法](/ai-jitan-lab/anzen-gyomu-bunsho/chatgpt-shagai-mail-shitagaki/)」に、業務マニュアルの下書きを作る場合は「[ChatGPTで業務マニュアルを作成するプロンプト](/ai-jitan-lab/gyomu-jitan/chatgpt-gyomu-manual-sakusei-prompt/)」にまとめています。
 
 メール・議事録・社外向け商品説明の3つの作業について、作業別の置換シート・指示文・確認表を1つにまとめたものとして「[安全な業務文書の下書きキット](https://note.com/noirai/n/nf9416642c2c3)」があります。個別の判断や設定代行は含みません。
