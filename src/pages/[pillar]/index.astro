@@ -2,7 +2,7 @@
 import type { GetStaticPaths } from 'astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { PILLARS } from '../../consts';
+import { PILLARS, CTA } from '../../consts';
 
 export const getStaticPaths = (async () => {
   return PILLARS.map((p) => ({ params: { pillar: p.slug }, props: { pillar: p } }));
@@ -31,6 +31,8 @@ const crumbs = {
   <p class="meta"><a href={`${base}/`}>ホーム</a> ／ {pillar.short}</p>
   <h1>{pillar.title}</h1>
 
+  {pillar.intro.length > 0 && pillar.intro.map((paragraph) => <p>{paragraph}</p>)}
+
   {articles.length === 0 ? (
     <p>このカテゴリの記事は準備中です。</p>
   ) : (
@@ -42,5 +44,12 @@ const crumbs = {
         </li>
       ))}
     </ul>
+  )}
+
+  {pillar.intro.length > 0 && (
+    <p>
+      無料で読める「安全なAI下書きの5チェック」は<a href={CTA.freeNoteMail}>こちら</a>、
+      作業別テンプレと完全版確認表をまとめた有料キットは<a href={CTA.paidKit}>こちら</a>。
+    </p>
   )}
 </BaseLayout>
