@@ -46,10 +46,17 @@ const crumbs = {
     </ul>
   )}
 
-  {pillar.intro.length > 0 && (
+  {pillar.intro.length > 0 && pillar.slug === 'anzen-gyomu-bunsho' && (
     <p>
       無料で読める「安全なAI下書きの5チェック」は<a href={CTA.freeNoteMail}>こちら</a>、
       作業別テンプレと完全版確認表をまとめた有料キットは<a href={CTA.paidKit}>こちら</a>。
+    </p>
+  )}
+
+  {pillar.intro.length > 0 && pillar.slug === 'ai-gijiroku' && (
+    <p>
+      決定事項・担当者・期限を分けるAI議事録作成プロンプトは<a href={CTA.noteGijiroku}>こちら</a>、
+      議事録を含む3作業別テンプレと完全版確認表をまとめた有料キットは<a href={CTA.paidKit}>こちら</a>。
     </p>
   )}
 </BaseLayout>
