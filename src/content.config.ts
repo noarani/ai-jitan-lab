@@ -14,6 +14,8 @@ const guides = defineCollection({
     publishedAt: z.string(), // YYYY-MM-DD
     updatedAt: z.string().optional(),
     draft: z.boolean().default(false),
+    /** アフィリエイト広告を含む記事だけ、冒頭にPR表記を出す */
+    affiliate: z.boolean().default(false),
     /** FAQPage 用（任意） */
     faq: z.array(z.object({ q: z.string(), a: z.string() })).optional(),
   }),

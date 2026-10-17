@@ -1,0 +1,33 @@
+---
+interface Props {
+  advertiser: string;
+  href: string;
+  label: string;
+}
+
+const { advertiser, href, label } = Astro.props;
+---
+<aside class="affiliate-cta">
+  <p class="affiliate-cta__label">PR：{advertiser}</p>
+  <a href={href} target="_blank" rel="sponsored noopener">{label}</a>
+</aside>
+
+<style>
+  .affiliate-cta {
+    margin: 32px 0;
+    padding: 16px 18px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: #fafbfc;
+  }
+  .affiliate-cta__label {
+    margin: 0 0 8px;
+    font-size: 0.95rem;
+    font-weight: 700;
+  }
+  .affiliate-cta a { font-weight: 600; }
+
+  @media (prefers-color-scheme: dark) {
+    .affiliate-cta { background: #1a1d22; }
+  }
+</style>

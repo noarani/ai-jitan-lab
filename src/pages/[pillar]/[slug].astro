@@ -1,6 +1,7 @@
 ---
 import type { GetStaticPaths } from 'astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import AffiliateDisclosure from '../../components/AffiliateDisclosure.astro';
 import { getCollection, render } from 'astro:content';
 import { PILLARS } from '../../consts';
 
@@ -68,6 +69,7 @@ const jsonLd = [articleLd, crumbLd, ...(faqLd ? [faqLd] : [])];
     <a href={`${base}/${pillar.slug}/`}>{pillar.short}</a>
   </p>
   <h1>{data.title}</h1>
+  {data.affiliate && <AffiliateDisclosure />}
   <p class="meta">
     公開：{data.publishedAt}
     {data.updatedAt && data.updatedAt !== data.publishedAt ? `／更新：${data.updatedAt}` : ''}
