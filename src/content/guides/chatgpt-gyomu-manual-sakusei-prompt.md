@@ -109,6 +109,8 @@ ChatGPTの出力は、完成条件を満たしているかを確認するため�
 
 既存のマニュアルを更新するときは、本文を先に書き換えるのではなく、変更前後と根拠を照合します。具体的な確認表とプロンプトは、[ChatGPTでマニュアルを更新する方法：差分確認のプロンプトと確認表](/ai-jitan-lab/gyomu-jitan/chatgpt-manual-koshin-sabun-kakunin/)を参照してください。
 
+異動や休暇の前に業務を渡すときは、手順だけでなく期限・未完了・判断の理由も残します。項目とプロンプトは、[ChatGPTで引き継ぎ資料を作るプロンプト](/ai-jitan-lab/gyomu-jitan/chatgpt-hikitsugi-shiryo-prompt/)にまとめています。
+
 無料はここまで、有料はメール・議事録・社外説明の3作業別テンプレと完全版確認表をまとめています。
 
 [安全な業務文書の下書きキット](https://note.com/noirai/n/nf9416642c2c3)
