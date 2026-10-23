@@ -4,6 +4,7 @@ description: "AIで議事録を作成するときの、録音前の確認、文�
 pillar: "ai-gijiroku"
 query: "AI 議事録作成"
 publishedAt: "2026-09-21"
+affiliate: true
 faq:
   - q: "AI議事録を作る前に、録音について何を確認しますか？"
     a: "録音することを参加者に伝え、勤務先のルール、会議の目的、利用するサービス、共有範囲を確認します。録音の可否や同意の要否は、この記事だけでは判断しません。"
@@ -43,6 +44,12 @@ AI議事録は、録音や会議メモを文字起こしし、要点を整理す
 
 照合する順番や修正履歴の残し方は、[AI議事録の文字起こしを確認する方法](/ai-jitan-lab/ai-gijiroku/ai-gijiroku-mojiokoshi-kakunin/)で詳しく説明しています。
 
+録音許可と社内ルールを確認でき、まずは非機密の自前サンプルで文字起こしを試す場合は、Nottaも候補の一つです。申込は公式サイトの最新条件をご確認ください。
+
+<aside style="margin:32px 0;padding:16px 18px;border:1px solid var(--line,#d0d7de);border-radius:10px;">
+<p style="margin:0 0 8px;font-size:0.95rem;font-weight:700;">PR：Notta</p>
+<a href="https://px.a8.net/svt/ejp?a8mat=4BEIPA+3FU85E+5988+5YJRM" target="_blank" rel="sponsored noopener">Notta公式サイトで最新条件を確認する</a><img border="0" width="1" height="1" src="https://www19.a8.net/0.gif?a8mat=4BEIPA+3FU85E+5988+5YJRM" alt="">
+</aside>
 ## 要約は、どのように指示しますか？
 
 **結論：原文にない内容を補わないこと、決定・継続検討・アクションを分けること、不明点を明示することを先に指示します。**
