@@ -126,5 +126,5 @@ faq:
 
 [安全な業務文書の下書きキット](https://note.com/noirai/n/nf9416642c2c3)
 
-もう少しまとまった形で読みたい人へ：この記事を書いているノアの本『言いにくいメールはAIに任せなさい』（Kindle）でも、同じテーマを順を追って解説しています。Kindle Unlimitedなら追加料金なしで読めます。 [Amazonで見る](https://www.amazon.co.jp/dp/B0H7SP2ZW8)
+もう少しまとまった形で読みたい人へ：この記事を書いているノアの本『言いにくいメールはAIに任せなさい』（Kindle）でも、同じテーマを順を追って解説しています。[Amazonで見る](https://www.amazon.co.jp/dp/B0H7SP2ZW8)
 
