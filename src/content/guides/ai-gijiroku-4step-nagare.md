@@ -44,7 +44,7 @@ AI議事録は、録音や会議メモを文字起こしし、要点を整理す
 
 照合する順番や修正履歴の残し方は、[AI議事録の文字起こしを確認する方法](/ai-jitan-lab/ai-gijiroku/ai-gijiroku-mojiokoshi-kakunin/)で詳しく説明しています。
 
-録音許可と社内ルールを確認でき、まずは非機密の自前サンプルで文字起こしを試す場合は、Nottaも候補の一つです。申込は公式サイトの最新条件をご確認ください。
+録音許可と社内ルールを確認でき、まずは非機密の自前サンプルで文字起こしを試す場合は、Nottaも候補の一つです。無料プランでできることと有料にする目安は[Nottaで議事録を作る手順](/ai-jitan-lab/ai-gijiroku/notta-gijiroku-tsukaikata/)にまとめました。申込は公式サイトの最新条件をご確認ください。
 
 <aside style="margin:32px 0;padding:16px 18px;border:1px solid var(--line,#d0d7de);border-radius:10px;">
 <p style="margin:0 0 8px;font-size:0.95rem;font-weight:700;">PR：Notta</p>
